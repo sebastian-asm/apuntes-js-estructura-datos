@@ -36,3 +36,11 @@ Estructura de datos lineal basada en el principio _LIFO (Last In, First Out)_ do
 ## Queue (cola)
 
 Basado en la estructura de datos _FIFO (First In, First Out)_ donde el primero que entra, es el primero que sale.
+
+## Linked List (lista enlazada)
+
+Conjunto de nodos que estan enlazados mediante punteros donde cada elemento de la lista contiene un valor y una referencia al elemento siguiente. Nos permite representan una colección sin necesidad que sea un array y está formada por 3 elementos:
+
+- **Head**: indica cual es el primer elemento
+- **Nodo**: elementos enlazados que mantiene una referencia al siguiente nodo
+- **Null**: indica el fin de la lista
