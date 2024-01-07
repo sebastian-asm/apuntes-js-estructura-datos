@@ -28,7 +28,11 @@ Una IIFE es una función que se ejecuta inmediatamente una vez que se a creado.
 
 ## Stack (pila)
 
-Estructura de datos lineal basada en el principio _LIFO_ (Last In, First Out) donde el último elemento que entra, es el primero en salir. Conmunmente cuenta con 2 operaciones:
+Estructura de datos lineal basada en el principio _LIFO (Last In, First Out)_ donde el último elemento que entra, es el primero en salir. Conmunmente cuenta con 2 operaciones:
 
 - **Push (apilar)**: se agrega un elemento al tope de la pila
 - **Pop (desapilar)**: elimina el elemento que está en el tope de la pila
+
+## Queue (cola)
+
+Basado en la estructura de datos _FIFO (First In, First Out)_ donde el primero que entra, es el primero que sale.
