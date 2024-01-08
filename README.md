@@ -44,3 +44,7 @@ Conjunto de nodos que estan enlazados mediante punteros donde cada elemento de l
 - **Head**: indica cual es el primer elemento
 - **Nodo**: elementos enlazados que mantiene una referencia al siguiente nodo
 - **Null**: indica el fin de la lista
+
+## Doubly Linked List (DLL)
+
+A diferencia de la lista simple, sus nodos tienen un puntero al nodo anterior y al siguiente, lo que permite una mejor flexibilidad en las operaciones de inserción y eliminación de nodos. También, permite guardar de forma no secuencial, conmunmente utilizados en sistemas distribuidos.
