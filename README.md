@@ -45,6 +45,28 @@ Conjunto de nodos que estan enlazados mediante punteros donde cada elemento de l
 - **Nodo**: elementos enlazados que mantiene una referencia al siguiente nodo
 - **Null**: indica el fin de la lista
 
+![Linked List](assets/images/screenshots/image-7.png)
+
 ## Doubly Linked List (DLL)
 
 A diferencia de la lista simple, sus nodos tienen un puntero al nodo anterior y al siguiente, lo que permite una mejor flexibilidad en las operaciones de inserción y eliminación de nodos. También, permite guardar de forma no secuencial, conmunmente utilizados en sistemas distribuidos.
+
+![Doubly Linked List](assets/images/screenshots/image-6.png)
+
+## Árbol Binario
+
+Se conforma de una raíz que es un nodo el cual tiene 2 "hijos", uno a su derecha y el otro a la izquiera, a su vez cada hijo puede volver a tener otros 2 hijos. La necesidad de creación de estos árboles es para la optimización, por ejemplo, para las búsquedas de información en una base de datos. Pero su desventaja es al momento de _insertar_ información siendo una operación más lenta.
+
+- **Recursividad**: función que se llama así misma
+
+- **In Order**: primero se recorre el lado izquiero del árbol, luego se visita el nodo raíz y finalmente se recorre el lado derecho
+
+![In Order](assets/images/screenshots/image-4.png)
+
+- **Pre Order**: es hacer una acción (por ejemplo: mostrar en pantalla, guardar en una base de datos, etc) sobre el nodo raíz y luego sobre sus hijos, primero por la izquierda y después la derecha de manera recursiva
+
+![Pre Order](assets/images/screenshots/image-5.png)
+
+- **Post Order**: es lo inverso a Pre Order, primero se evaluan los hijos del nodo actual (partiendo por el que se encuentra más a la izquierda) y luego vuelve a evaluar al nodo raíz
+
+![Post Order](assets/images/screenshots/image-8.png)
