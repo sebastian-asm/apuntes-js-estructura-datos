@@ -73,4 +73,8 @@ Se conforma de una raíz que es un nodo el cual tiene 2 "hijos", uno a su derech
 
 ## Map
 
-Similar a un objecto ya que permite guardar una clave y un valor (diccionario), la diferencia es que en un map la clave puede ser un objecto, además no permite 2 claves iguales ya que si existe se _reemplaza_.
+Similar a un objecto ya que permite guardar una clave y un valor (diccionario), la diferencia es que en un map la clave puede ser un objecto, además no permite 2 claves iguales ya que si existe se _reemplaza/sobreescribe_.
+
+## Set
+
+Representa una estructura de datos la cual es una colección de elementos que no se pueden repetir, pudiendo almacenar funciones, objectos, string, numbers, etc.
