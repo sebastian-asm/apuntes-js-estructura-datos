@@ -70,3 +70,7 @@ Se conforma de una raíz que es un nodo el cual tiene 2 "hijos", uno a su derech
 - **Post Order**: es lo inverso a Pre Order, primero se evaluan los hijos del nodo actual (partiendo por el que se encuentra más a la izquierda) y luego vuelve a evaluar al nodo raíz
 
 ![Post Order](assets/images/screenshots/image-8.png)
+
+## Map
+
+Similar a un objecto ya que permite guardar una clave y un valor (diccionario), la diferencia es que en un map la clave puede ser un objecto, además no permite 2 claves iguales ya que si existe se _reemplaza_.
