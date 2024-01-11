@@ -78,3 +78,9 @@ Similar a un objecto ya que permite guardar una clave y un valor (diccionario), 
 ## Set
 
 Representa una estructura de datos la cual es una colección de elementos que no se pueden repetir, pudiendo almacenar funciones, objectos, string, numbers, etc.
+
+## Grafos
+
+Más flexible que un árbol binario ya que permite tener múltiples relaciones (vértices) dirigidas y no dirigidas entre los nodos.
+
+![Grafos](assets/images/screenshots/image.png)
